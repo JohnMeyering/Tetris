@@ -118,6 +118,7 @@ public class Controller {
 	 */
 	public void startGame() {
 		Tetris.clearPlayArea();
+		Tetris.score.setText("0");
 		Tetris.gameStarted = true;
 		
 		gameState = "Waiting";
